@@ -1,0 +1,7 @@
+# Contoh konfigurasi - COPAS dan rename ke .env atau config.yaml
+# Jangan commit file asli yang berisi API key!
+
+rpc_url: "https://your-rpc-url.com"
+private_key: "your-private-key-here"
+slippage: 0.5
+gas_limit: 300000

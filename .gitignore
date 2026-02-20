@@ -1,0 +1,38 @@
+# Environment variables
+.env
+*.env
+configs/*.yaml
+!configs/example.yaml
+
+# Private keys
+*.pem
+*.key
+secrets/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.python-version
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+data/
+
+# OS
+.DS_Store
+Thumbs.db
