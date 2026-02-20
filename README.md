@@ -19,5 +19,5 @@ dexclaw/
 ├── docs/ # Dokumentasi & riset
 └── tests/ # Unit testing
 
-Disclaimer
+## Disclaimer
 Gunakan dengan risiko sendiri! Bot trading bisa menyebabkan kerugian. Selalu test di testnet dulu
