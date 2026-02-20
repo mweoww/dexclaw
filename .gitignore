@@ -1,13 +1,21 @@
-# Environment variables
+# Environment - WAJIB! (JANGAN SAMPAI KECOMMIT!)
 .env
+.env.*
 *.env
 configs/*.yaml
 !configs/example.yaml
-
-# Private keys
-*.pem
-*.key
+configs/*.json
+!configs/example.json
 secrets/
+secrets.json
+
+# Virtual Environment
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+pythonenv*
 
 # Python cache
 __pycache__/
@@ -16,23 +24,51 @@ __pycache__/
 *.pyd
 .pytest_cache/
 .python-version
-
-# Node
-node_modules/
-npm-debug.log
-package-lock.json
+*.egg-info/
+*.egg
+dist/
+build/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.sublime-*
+.project
+.classpath
 
-# Logs
-*.log
+# Logs & Data
 logs/
+*.log
+*.log.*
 data/
+*.db
+*.sqlite
+*.sqlite3
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
+*.bak
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Docker (kalo pake)
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Private keys (EXTRA SAFE)
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
